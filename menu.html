@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Menu · Abanguni Hospitality Consultancy</title>
+  <meta name="description" content="Abanguni’s catering menu: breakfast, plated chicken, lamb, beef and fish, finger food and platters, with per-person prices.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,520;0,9..144,620;1,9..144,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="preview-bar">Concept preview for Abanguni. The current site is still <a href="https://abangunihc.wordpress.com">abangunihc.wordpress.com</a>.</div>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <span class="logo-mark">Abanguni</span>
+      <span class="logo-sub">Hospitality Consultancy</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="packages.html">Packages</a>
+      <a href="menu.html" aria-current="page">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn btn-light header-cta" href="contact.html#quote">Get a quote</a>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Menu</p>
+        <h1>Prices you can multiply.</h1>
+        <p class="lede">A standard sitting is one salad, one hot dish, vegetables, a starch and gravy or sauce. Salmon, oysters and a cheese platter are priced on their own. Confirm every rate before you book.</p>
+        <div class="tabs" data-tabs role="tablist" aria-label="Menu sections">
+          <button type="button" role="tab" aria-selected="true" aria-controls="breakfast" id="tab-breakfast">Breakfast</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="plates" id="tab-plates">Plates</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="finger" id="tab-finger">Finger food</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="platters" id="tab-platters">Platters</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="breakfast" role="tabpanel" aria-labelledby="tab-breakfast" style="padding-top: 0">
+      <div class="wrap">
+        <form class="estimate" data-estimate="breakfast" data-event="Corporate" data-package="Breakfast">
+          <div>
+            <p class="kicker">Estimate</p>
+            <p class="total" data-total>R0</p>
+            <p class="fine" data-note>Add a guest count to see the total.</p>
+            <button class="btn btn-light" type="button" data-send-estimate>Use this in my quote</button>
+          </div>
+          <div class="controls">
+            <label>Guests <input data-guests type="number" min="1" value="20" inputmode="numeric"></label>
+            <label>Breakfast
+              <select data-choice>
+                <option value="45" data-name="Continental breakfast, two items" data-min="20">Two continental items — R45</option>
+                <option value="70" data-name="Continental breakfast, three items" data-min="20">Three continental items — R70</option>
+                <option value="125" data-name="Full hot breakfast">Full hot breakfast — R125</option>
+              </select>
+            </label>
+          </div>
+        </form>
+        <h2>Continental</h2>
+        <p class="paper-fine">Choose two items for R45 a person, or three for R70, for 20 guests and more. Danish pastries need 12 hours’ notice. Juice is charged separately.</p>
+        <article class="dish"><div><h3>Fruit</h3><p>Seasonal platter, fruit salad, and fruit or plain yoghurt.</p></div></article>
+        <article class="dish"><div><h3>Bakery</h3><p>Muffins, breads with jam and butter, plain or filled croissants, Danish pastries.</p></div></article>
+        <article class="dish"><div><h3>Cold</h3><p>Cereals, cold meats, open and closed sandwiches, wraps with chicken, salmon or cheese and tomato.</p></div></article>
+        <h2>Hot breakfast</h2>
+        <p class="paper-fine">R125 a person. It includes a continental selection of three items, plus the hot plate.</p>
+        <article class="dish"><div><h3>Eggs and the pan</h3><p>Scrambled eggs with chives, mini cheese omelettes, grilled tomato, garlic mushrooms, bacon, beef, pork or chicken sausages.</p></div></article>
+        <article class="dish"><div><h3>Or the simpler plate</h3><p>Smoked haddock or kippers, or baked beans, with toasted brown and white bread.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="plates" role="tabpanel" aria-labelledby="tab-plates" hidden style="padding-top: 0">
+      <div class="wrap">
+        <form class="estimate" data-estimate="plates" data-event="Family function" data-package="Plated menu">
+          <div>
+            <p class="kicker">Estimate</p>
+            <p class="total" data-total>R0</p>
+            <p class="fine" data-note>Add a guest count to see the total.</p>
+            <button class="btn btn-light" type="button" data-send-estimate>Use this in my quote</button>
+          </div>
+          <div class="controls">
+            <label>Guests <input data-guests type="number" min="1" value="50" inputmode="numeric"></label>
+            <label>Plate
+              <select data-choice>
+                <option value="110" data-name="Chicken plate">Chicken — R110</option>
+                <option value="120" data-name="Lamb plate">Lamb — R120</option>
+                <option value="120" data-name="Beef plate">Beef — R120</option>
+                <option value="125" data-name="Fish plate">Fish — R125</option>
+              </select>
+            </label>
+          </div>
+        </form>
+        <h2>One hot dish</h2>
+        <p class="paper-fine">Each price is one dish with salad, vegetables, starch and gravy or sauce. Pick one from each side list.</p>
+        <article class="dish"><div><h3>Chicken</h3><p>Cajun roast, slow stew, mild coconut curry, chicken à la king, or biryani with an African twist.</p></div><span class="cost">R110</span></article>
+        <article class="dish"><div><h3>Lamb</h3><p>Slow stew, knuckle or shoulder, coconut curry, grilled loin chops or shoulder, whole roasted leg with rosemary, garlic and thyme, or mutton biryani.</p></div><span class="cost">R120</span></article>
+        <article class="dish"><div><h3>Beef</h3><p>Stew with mushroom, herb-crusted loin carved medium or well done, grilled boerewors, mini sirloin, or a portioned T-bone.</p></div><span class="cost">R120</span></article>
+        <article class="dish"><div><h3>Fish</h3><p>Grilled fish of the day with lemon butter, seafood curry with coconut, or fish and chips.</p></div><span class="cost">R125</span></article>
+
+        <h2>With it</h2>
+        <div class="menu-sample">
+          <article class="panel">
+            <h3>Salad, choose one</h3>
+            <ul>
+              <li>Green salad with feta, tomato and olives</li>
+              <li>Pasta salad with peppers and chives</li>
+              <li>Carrot and onion with mango and sweet chilli</li>
+              <li>Beetroot with chutney</li>
+              <li>Smoked chicken with a light curry sauce</li>
+              <li>Potato salad with egg</li>
+              <li>Chakalaka with cabbage and spinach</li>
+              <li>Coleslaw</li>
+              <li>Parma ham, parmesan and spanspek</li>
+              <li>Caesar, with bacon, chicken or anchovy</li>
+              <li>Calamari with peppers and onion</li>
+              <li>Smoked salmon, priced separately</li>
+              <li>Garlic mushroom with cheddar, priced separately</li>
+              <li>Prawn and avocado cocktail, with a Tabasco dressing</li>
+            </ul>
+            <p class="paper-fine">A few salads were marked on the old menu as adding R12 to R15. Ask which ones still do.</p>
+          </article>
+          <article class="panel">
+            <h3>Vegetables, starch, gravy</h3>
+            <ul>
+              <li>Steamed or garlic-grilled mixed vegetables</li>
+              <li>Roasted butternut with cinnamon</li>
+              <li>Spinach with garlic and onion, or creamed spinach</li>
+              <li>Broccoli and cauliflower with cheese sauce</li>
+              <li>Savoury rice, roast potatoes, mash, couscous, dumplings or pap</li>
+              <li>Samp, plain or with beans, ordered 24 hours ahead</li>
+              <li>Bread</li>
+              <li>Tomato, mutton or chicken gravy</li>
+            </ul>
+            <h3>Vegetarian, instead of the meat</h3>
+            <ul>
+              <li>Napolitana pasta</li>
+              <li>Creamy pasta with grilled vegetables</li>
+              <li>Mushroom risotto</li>
+              <li>Vegetable biryani</li>
+              <li>Vegetable lasagne</li>
+              <li>Mushroom and spinach with cheese sauce</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="finger" role="tabpanel" aria-labelledby="tab-finger" hidden style="padding-top: 0">
+      <div class="wrap">
+        <form class="estimate" data-estimate="finger" data-event="Cocktail party" data-package="Finger food">
+          <div>
+            <p class="kicker">Estimate</p>
+            <p class="total" data-total>R0</p>
+            <p class="fine" data-note>Add a guest count to see the total.</p>
+            <button class="btn btn-light" type="button" data-send-estimate>Use this in my quote</button>
+          </div>
+          <div class="controls">
+            <label>Guests <input data-guests type="number" min="1" value="40" inputmode="numeric"></label>
+            <label>Spread
+              <select data-choice>
+                <option value="90" data-name="Finger food, 3 items">3 items — R90</option>
+                <option value="135" data-name="Finger food, 3 cold and 4 hot">3 cold and 4 hot — R135</option>
+                <option value="160" data-name="Finger food, 3 cold and 5 hot">3 cold and 5 hot — R160</option>
+              </select>
+            </label>
+          </div>
+        </form>
+        <h2>Pass-around food</h2>
+        <div class="menu-sample">
+          <article class="panel">
+            <h3>Cold</h3>
+            <ul>
+              <li>Open canapés</li>
+              <li>Vegetable crudités with dip</li>
+              <li>Mini pitas with vegetarian fillings</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>Hot</h3>
+            <ul>
+              <li>Mini meatballs, spring rolls, vegetarian quiche</li>
+              <li>Chicken drumsticks and skewers</li>
+              <li>Lamb chops and skewers</li>
+              <li>Beef kebabs with peppers</li>
+              <li>Fish fillets, fried or grilled</li>
+              <li>Potato wedges, mini pies, sausage rolls</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="platters" role="tabpanel" aria-labelledby="tab-platters" hidden style="padding-top: 0">
+      <div class="wrap">
+        <h2>Platters</h2>
+        <p class="paper-fine">These are snacks. For a full lunch, use a plated menu. Desserts are charged on their own.</p>
+        <article class="dish"><div><h3>Scones and muffins</h3></div><span class="cost">R250</span></article>
+        <article class="dish"><div><h3>Sandwiches</h3><p>Wraps, spinach and feta pitas, and closed sandwiches: tuna, ham and cheese, tomato and cheese, chicken mayonnaise.</p></div><span class="cost">R350</span></article>
+        <article class="dish"><div><h3>Vegetarian</h3><p>Spring rolls, quiche and deep-fried mushrooms.</p></div><span class="cost">R300</span></article>
+        <article class="dish"><div><h3>Chicken</h3><p>Drumsticks, sticky winglets, mini pies and skewers.</p></div><span class="cost">R550</span></article>
+        <article class="dish"><div><h3>Meat</h3><p>Meatballs, beef skewers, lamb skewers or chops, chicken drumsticks.</p></div><span class="cost">R700</span></article>
+        <article class="dish"><div><h3>Seafood, for 10</h3><p>Crumbed calamari, fish fingers, grilled fish and fish cakes.</p></div><span class="cost">R750</span></article>
+        <h2>Desserts, priced when you order</h2>
+        <div class="chip-row">
+          <span class="chip">Chocolate mousse</span>
+          <span class="chip">Carrot cake</span>
+          <span class="chip">Fruit tartlets</span>
+          <span class="chip">Fruit salad and ice cream</span>
+          <span class="chip">Black Forest</span>
+          <span class="chip">Fruit platters</span>
+          <span class="chip">Crème brûlée</span>
+          <span class="chip">Milk tartlets</span>
+          <span class="chip">Baked cheesecake</span>
+          <span class="chip">Malva pudding and custard</span>
+        </div>
+        <div class="form-actions">
+          <a class="btn" href="contact.html?package=Plated%20menu#quote">Ask for a platter quote</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="logo-mark">Abanguni</p>
+        <p>Hospitality consultancy for catering and events. Based in Johannesburg, booked further when the job needs it.</p>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <p>No. 1 Lesly Court<br>82 Gordon Road, corner Viljoen Street<br>Bertrams, Johannesburg</p>
+      </div>
+      <div>
+        <h2>Talk to us</h2>
+        <p>
+          <a href="tel:+27749052088">074 905 2088</a><br>
+          <a href="tel:+27838560582">083 856 0582</a><br>
+          <a href="tel:+27715152621">071 515 2621</a><br>
+          <a href="mailto:abangunihc@gmail.com">abangunihc@gmail.com</a>
+        </p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="packages.html">Packages</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p>© <span data-year>2026</span> Abanguni Hospitality Consultancy. Concept preview.</p>
+      <p>Rates are the ones published on the current site. Confirm before you book.</p>
+    </div>
+  </footer>
+  <div class="mobile-bar">
+    <a href="tel:+27749052088">Call</a>
+    <a href="https://wa.me/27749052088">WhatsApp</a>
+  </div>
+  <script src="js/site.js"></script>
+</body>
+</html>
